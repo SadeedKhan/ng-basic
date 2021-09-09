@@ -1,0 +1,8 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .menubtn{
+      background-color: inherit;
+      border: none;
+      color:white
+  }

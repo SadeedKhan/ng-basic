@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+  border: 1px solid #efe4e4;
+    border-radius: 20px;
+    box-shadow: darkblue;
+    background-color: #f9f9f93b;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputField{
+  width:100%;
+}
+.radio{
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+.heading{
+  background-color:#3f51b5;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+mat-radio-button{
+  padding-left: 10px;
+}
